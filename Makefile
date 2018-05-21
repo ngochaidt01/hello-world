@@ -1,8 +1,7 @@
-XTENSA		?=
+XTENSA    ?=
 
-# Mac and linux
-SDK_BASE	?= /tools/esp8266/sdk/ESP8266_NONOS_SDK
-ESPTOOL		?= /tools/esp8266/esptool/esptool.py
+SDK_BASE  ?= C:/Espressif/ESP8266_SDK
+ESPTOOL   ?= C:/Espressif/utils/ESP8266/esptool.py
 
 # Windows with unofficial dev kit (default install location is C:/Espressif)
 # SDK_BASE	?= C:/Espressif/ESP8266_SDK
